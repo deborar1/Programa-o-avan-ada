@@ -7,7 +7,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Movel Pessoa = new Movel("suzi", 99, 2018, 20, "teste", true, true);
-            Fixa Pessoa2 = new Fixa("debora", 00, 2017, 40, 60, 60, true);
+            Fixa Pessoa2 = new Fixa("deborar", 00, 2017, 40, 60, 60, true);
 
             Pessoa.Recarregar(10);
             Pessoa.Navegar(10);
